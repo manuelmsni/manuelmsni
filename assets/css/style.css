@@ -9,7 +9,7 @@ body {
 }
 
 a {
-  color: #2cbdee;
+  color: #2AD7A8;
 }
 
 a:hover {
@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top i:hover {
-  background: #6F01A2;
+  background: #883EA0;
   color: #fff;
 }
 
@@ -463,7 +463,7 @@ section {
 .about .content h4 {
   font-weight: 700;
   font-size: 20px;
-  color: #2cbdee;
+  color: #2AD7A8;
 }
 
 .about .content p {
@@ -484,7 +484,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 2px;
-  color: #2cbdee;
+  color: #2AD7A8;
 }
 
 .about .content .count-box {
@@ -596,7 +596,7 @@ section {
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #2cbdee;
+  color: #2AD7A8;
   margin-bottom: 10px;
 }
 
@@ -611,7 +611,7 @@ section {
 .resume .resume-item h6 {
   font-size: 15px;
   background: #eef0f2;
-  color: #2AD7A8;
+  color: #2cbdee;
   padding: 4px 9px;
   display: inline-block;
   font-weight: 600;
