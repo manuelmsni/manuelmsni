@@ -670,13 +670,13 @@ section {
   border-radius: 50%;
   width: 72px;
   height: 72px;
-  background: #fff4df;
+  background: #E5FAF4;
 }
 
 .services .icon i {
   font-size: 36px;
   line-height: 1;
-  color: #ffb727;
+  color: #2AD7A8;
 }
 
 .services .title {
@@ -697,11 +697,11 @@ section {
 }
 
 .services .icon-box:hover {
-  border-color: #ffb727;
+  border-color: #2AD7A8;
 }
 
 .services .icon-box:hover .title a {
-  color: #ffb727;
+  color: #2AD7A8;
 }
 
 /*--------------------------------------------------------------
@@ -793,7 +793,7 @@ section {
 }
 
 .testimonials .owl-dot.active {
-  background-color: #ffb727 !important;
+  background-color: #2AD7A8 !important;
 }
 
 @media (min-width: 1024px) {
@@ -1020,10 +1020,10 @@ section {
 
 .contact .info-box i.bx {
   font-size: 24px;
-  color: #ffb727;
+  color: #2AD7A8;
   border-radius: 50%;
   padding: 15px;
-  background: #fff6e4;
+  background: #E5FAF4;
 }
 
 .contact .info-box h3 {
@@ -1067,8 +1067,8 @@ section {
 
 .contact .social-links a:hover {
   color: #fff;
-  border-color: #ffb727;
-  background: #ffb727;
+  border-color: #2AD7A8;
+  background: #2AD7A8;
 }
 
 .contact .php-email-form {
