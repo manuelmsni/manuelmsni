@@ -40,13 +40,13 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: #ffb727;
+  background: #2AD7A8;
   color: #fff;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: #ffc550;
+  background: #d72959;
   color: #fff;
 }
 
