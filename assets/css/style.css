@@ -463,7 +463,7 @@ section {
 .about .content h4 {
   font-weight: 700;
   font-size: 20px;
-  color: #2AD7A8;
+  color: #1B6D7C;
 }
 
 .about .content p {
@@ -596,7 +596,7 @@ section {
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #2AD7A8;
+  color: #1B6D7C;
   margin-bottom: 10px;
 }
 
@@ -611,7 +611,7 @@ section {
 .resume .resume-item h6 {
   font-size: 15px;
   background: #eef0f2;
-  color: #2cbdee;
+  color: #2AD7A8;
   padding: 4px 9px;
   display: inline-block;
   font-weight: 600;
