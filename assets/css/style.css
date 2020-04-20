@@ -514,7 +514,7 @@ section {
 }
 
 #pdf {
-  border: 0px solid #eef0f2;
+  border: 1px solid #fff;
 }
 
 #pdf:hover {
