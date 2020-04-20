@@ -507,6 +507,36 @@ section {
   margin-left: 50px;
 }
 
+#pdf {
+  border: 1px solid #eef0f2;
+}
+
+#pdf:hover {
+  border: 1px solid #2AD7A8;
+  background: #eef0f2;
+}
+
+
+.icofont-clip {
+  color: #ffb459
+}
+
+#pdf:hover .icofont-clip {
+  color: #2AD7A8;
+}
+
+#pdf2 {
+  margin-top: 5px;
+}
+
+.about .content .count-box h6 {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #3b434a;
+  margin-left: 50px;
+}
+
 .about .content .count-box p {
   padding: 15px 0 0 0;
   margin: 0 0 0 50px;
