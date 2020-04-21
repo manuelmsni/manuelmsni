@@ -571,6 +571,11 @@ section {
   min-height: 500px;
 }
 
+.about .image:hover {
+  background: url("../img/me4.png") center center no-repeat;
+  background-size: cover;
+}
+
 .about .skills-content {
   margin-top: 30px;
 }
