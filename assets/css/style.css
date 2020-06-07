@@ -659,6 +659,7 @@ section {
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
+  border: 1px solid #eef0f2;
 }
 
 .resume .resume-item h6:hover {
@@ -669,6 +670,7 @@ section {
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
+  border: 1px solid #2AD7A8;
 }
 
 .resume .resume-item h7 {
