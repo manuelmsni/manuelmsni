@@ -516,6 +516,8 @@ section {
 #pdf {
   border: 1px solid #fff;
   transition: all 0.5s;
+  margin-right: 2%;
+  max-width: 48%;
 }
 
 #pdf:hover {
