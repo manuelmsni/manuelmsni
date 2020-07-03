@@ -523,11 +523,9 @@ section {
 #pdf:hover {
   border: 1px solid #2AD7A8;
     color: #444444;
-  text-align: center;
   -webkit-box-shadow: 0px 0px 17px 5px rgba(240,224,141,0.58);
 -moz-box-shadow: 0px 0px 17px 5px rgba(240,224,141,0.58);
 box-shadow: 0px 0px 17px 5px rgba(240,224,141,0.58);
-  padding: 20px 0 30px 0;
 background: rgba(252,234,187,0.89);
 background: -moz-linear-gradient(-45deg, rgba(252,234,187,0.89) 0%, rgba(255,247,229,0.9) 9%, rgba(255,230,153,0.93) 25%, rgba(255,255,255,0.94) 35%, rgba(255,234,181,0.95) 43%, rgba(255,255,255,0.97) 54%, rgba(250,244,177,0.97) 63%, rgba(250,236,203,0.97) 71%, rgba(240,215,158,0.97) 79%, rgba(255,245,178,0.97) 88%, rgba(251,223,147,0.97) 100%);
 background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(252,234,187,0.89)), color-stop(9%, rgba(255,247,229,0.9)), color-stop(25%, rgba(255,230,153,0.93)), color-stop(35%, rgba(255,255,255,0.94)), color-stop(43%, rgba(255,234,181,0.95)), color-stop(54%, rgba(255,255,255,0.97)), color-stop(63%, rgba(250,244,177,0.97)), color-stop(71%, rgba(250,236,203,0.97)), color-stop(79%, rgba(240,215,158,0.97)), color-stop(88%, rgba(255,245,178,0.97)), color-stop(100%, rgba(251,223,147,0.97)));
