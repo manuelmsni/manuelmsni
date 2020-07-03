@@ -558,6 +558,10 @@ box-shadow: 0px 0px 17px 5px rgba(240,224,141,0.58);}
   color: #2AD7A8;
 }
 
+#pdf:hover .icofont-document-folder {
+  color: #2AD7A8;
+}
+
 .icofont-clip {
   color: #ffb459
 }
