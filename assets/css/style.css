@@ -807,7 +807,7 @@ box-shadow: 0px 0px 17px 5px rgba(240,224,141,0.58);}
 --------------------------------------------------------------*/
 .testimonials {
   padding: 80px 0;
-  background: url("../img/testimonials-bg.jpg") no-repeat;
+  background: url("../img/titles-bg.jpg") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
@@ -906,6 +906,106 @@ box-shadow: 0px 0px 17px 5px rgba(240,224,141,0.58);}
   }
 }
 
+
+
+
+
+/*--------------------------------------------------------------
+# Other titles
+--------------------------------------------------------------*/
+
+.othertitles::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(14, 16, 17, 0.7);
+}
+
+.othertitles .section-header {
+  margin-bottom: 40px;
+}
+
+.othertitles .othertitles-item {
+  text-align: center;
+  color: #fff;
+}
+
+.othertitles .othertitles-item .othertitles-img {
+  width: 100px;
+  border-radius: 50%;
+  border: 6px solid rgba(255, 255, 255, 0.15);
+  margin: 0 auto;
+}
+
+.othertitles .othertitles-item h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color: #fff;
+}
+
+.othertitles .othertitles-item h4 {
+  font-size: 14px;
+  color: #ddd;
+  margin: 0 0 15px 0;
+}
+
+.othertitles .othertitles-item .quote-icon-left, .othertitles .othertitles-item .quote-icon-right {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 26px;
+}
+
+.othertitles .othertitles-item .quote-icon-left {
+  display: inline-block;
+  left: -5px;
+  position: relative;
+}
+
+.othertitles .othertitles-item .quote-icon-right {
+  display: inline-block;
+  right: -5px;
+  position: relative;
+  top: 10px;
+}
+
+.othertitles .othertitles-item p {
+  font-style: italic;
+  margin: 0 auto 15px auto;
+  color: #eee;
+}
+
+.othertitles .owl-nav, .othertitles .owl-dots {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.othertitles .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.4) !important;
+}
+
+.othertitles .owl-dot.active {
+  background-color: #2AD7A8 !important;
+}
+
+@media (min-width: 1024px) {
+  .othertitles {
+    background-attachment: fixed;
+  }
+}
+
+@media (min-width: 992px) {
+  .othertitles .othertitles-item p {
+    width: 80%;
+  }
+}
 /*--------------------------------------------------------------
 # My Portfolio
 --------------------------------------------------------------*/
