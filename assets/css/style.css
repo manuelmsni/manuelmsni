@@ -431,7 +431,7 @@ section {
 .section-title span {
   position: absolute;
   top: 30px;
-  color: rgba(238, 240, 242, 0.4);
+  color: rgba(238, 240, 242, 0.7);
   left: 0;
   right: 0;
   z-index: 1;
