@@ -741,6 +741,14 @@ box-shadow: 0px 0px 17px 5px rgba(240,224,141,0.58);}
 /*--------------------------------------------------------------
 # My Services
 --------------------------------------------------------------*/
+.services {
+  padding: 80px 0;
+  background: url("../img/testimonials-bg.jpg") no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
 .services .icon-box {
   padding: 30px;
   position: relative;
