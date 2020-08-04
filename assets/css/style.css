@@ -366,7 +366,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #ffb727;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1px) {
   #hero {
     background-attachment: fixed;
   }
@@ -759,7 +759,7 @@ box-shadow: 0px 0px 17px 5px rgba(240,224,141,0.58);}
   background: rgba(14, 16, 17, 0.1);
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1px) {
   .services {
     background-attachment: fixed;
   }
@@ -911,7 +911,7 @@ box-shadow: 0px 0px 17px 5px rgba(240,224,141,0.58);}
   background-color: #2AD7A8 !important;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1px) {
   .testimonials {
     background-attachment: fixed;
   }
@@ -1370,7 +1370,7 @@ box-shadow: 0px 0px 17px 5px rgba(240,224,141,0.58);}
   background: rgba(0, 0, 0, 0.6);
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1px) {
   #footer {
     background-attachment: fixed;
   }
