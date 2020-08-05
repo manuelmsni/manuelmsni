@@ -1026,7 +1026,7 @@ color: #2AD7A8;
   color: #3b434a;
 }
 
-.othertitles .drop-down ul a:hover, .othertitles .drop-down ul .active > a, .othertitles .drop-down ul li:hover > a {
+.othertitles .drop-down ul a:hover, .othertitles .drop-down ul .active > a{
   color: #3b434a;
 }
 
