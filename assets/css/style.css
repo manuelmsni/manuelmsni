@@ -1008,6 +1008,7 @@ box-shadow: 0px 0px 17px 5px rgba(240,224,141,0.58);}
 .othertitles .drop-down li {
   min-width: 180px;
   position: relative;
+  padding: 10px 0 10px 0;
 }
 
 .othertitles .drop-down ul a {
