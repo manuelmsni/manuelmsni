@@ -1013,6 +1013,10 @@ box-shadow: 0px 0px 17px 5px rgba(240,224,141,0.58);}
   list-style: none;
 }
 
+.othertitles .drop-down li:hover {
+border-color: #2AD7A8;
+}
+
 .othertitles .drop-down ul a {
   padding: 10px 20px;
   font-size: 14px;
@@ -1022,7 +1026,7 @@ box-shadow: 0px 0px 17px 5px rgba(240,224,141,0.58);}
 }
 
 .othertitles .drop-down ul a:hover, .othertitles .drop-down ul .active > a, .othertitles .drop-down ul li:hover > a {
-  color: #ffb727;
+  color: #2AD7A8;
 }
 
 .othertitles .drop-down > a:after {
