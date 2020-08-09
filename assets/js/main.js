@@ -150,3 +150,12 @@
   });
 
 })(jQuery);
+
+  // Mostrar previsualización al hacer hover en un link
+
+function muestra(capa){
+xShow(capa);
+}
+function oculta(capa){
+xHide(capa);
+}
