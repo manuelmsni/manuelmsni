@@ -28,7 +28,7 @@ function dCCP(){
   });
 };
  
-//Disable click derecho
+//Disable right click
 function dRC(){
   $("body").on("contextmenu",function(e){
    return false;
