@@ -1,10 +1,7 @@
 
-/*
-To add or remove a specific class to the first children by clicking in an onclick handler
-
-onclick="AddOrRemoveClass(this, 'desiredClass')"
-
-Change desiredclass for your class
+/* To add or remove a specific class to the first children by clicking in an onclick handler
+onclick="AddOrRemoveClass(this, 'classToGiveOrRemove')"
+Change classToGiveOrRemove for your class
 */
 
 function AddOrRemoveClass(el, thisClass){
@@ -12,6 +9,17 @@ function AddOrRemoveClass(el, thisClass){
   child= el.children[0];
   $(child).toggleClass(cls);
 };
+
+/* 
+Shows a class and hide anotherone 
+onclick="ShowHide('classToShow', 'classToHide')"
+Change classToShow and classToHide for your desired classes
+*/
+
+function ShowHide(ShowClass, HideClass) {
+  $(`.${ShowClass}`).fadeIn('slow');
+  $(`.${HideClass}`).hide();
+}
 
 //Disable cut, copy & paste
 function dCCP(){
