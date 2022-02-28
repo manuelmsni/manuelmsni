@@ -21,6 +21,18 @@ function ShowHide(ShowClass, HideClass) {
   $(`.${HideClass}`).hide();
 }
 
+/*
+Sets the src of an specific image
+onclick="SrcSet('ImageId', 'desiredSRC')"
+Change ImageId for the Id of the image to be changed and desiredSRC for the desired URL of the image
+*/
+
+function SrcSet(ImageId, ThisElementSRC) {
+  var element = document.getElementById(ImageId);
+  element.src = ThisElementSRC;
+}
+
+
 //Disable cut, copy & paste
 function dCCP(){
   $('body').bind('cut copy paste', function (e) {
