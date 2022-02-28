@@ -13,3 +13,16 @@ function AddOrRemoveClass(el, thisClass){
   $(child).toggleClass(cls);
 };
 
+//Disable cut, copy & paste
+function dCCP(){
+  $('body').bind('cut copy paste', function (e) {
+   e.preventDefault();
+  });
+};
+ 
+//Disable click derecho
+function dRC(){
+  $("body").on("contextmenu",function(e){
+   return false;
+  });
+};
