@@ -1,4 +1,4 @@
-### This is my curriculum vitae
+### This is my curriculum vitae 🗎
 
     https://manuelmsni.github.io/curriculum
     
