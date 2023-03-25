@@ -1,6 +1,7 @@
 ### This is my curriculum vitae 📝
 
 English:  https://manuelmsni.github.io/curriculum/index-en.html
+<br/>
 Spanish:  https://manuelmsni.github.io/curriculum
     
 - 📖 I know SQL, HTML5, CSS3 and XML.
