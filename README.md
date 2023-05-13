@@ -15,7 +15,7 @@ Spanish:  https://manuelmsni.github.io/manuelmsni
   
  ##
 
-- 📖 I know SQL, HTML5, CSS3, XML, XSD.
+- 📖 I know MYSQL, HTML5, CSS3, XML, XSD.
 - 🌱 I'm currently learning Java and Javascript.
 
 ![image](https://img.shields.io/badge/Java-5181A2?style=for-the-badge&logo=openjdk&logoColor=black)
