@@ -6,6 +6,15 @@ Spanish:  https://manuelmsni.github.io/manuelmsni
 
 ##
 
+
+<div>
+  <a href="https://github.com/paulovitorguedes">
+  <img height="200em" src="https://github-readme-stats.vercel.app/api?username=manuelmsni&show_icons=true&theme=dark&include_all_commits=true&count_private=true"/>
+  <img height="200em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=manuelmsni&layout=compact&langs_count=12&theme=dark"/>
+</div>
+  
+##
+
 - 📖 I know SQL, HTML5, CSS3 and XML.
 - 🌱 I'm currently learning Java, Javascript and XSD.
 
