@@ -108,6 +108,47 @@
     }, 1500, 'easeInOutExpo');
     return false;
   });
+  // Calculate total experience months from resume dates
+  function calcularExperiencia() {
+    var totalMeses = 0;
+    var hoy = new Date();
+
+    $('.resume-item h5').each(function() {
+      var texto = $(this).text().trim();
+      if (!texto) return true;
+
+      var partes = texto.split('-');
+      if (partes.length < 2) return true;
+
+      var inicioStr = partes[0].trim();
+      var finStr = partes[1].trim();
+
+      var inicioParts = inicioStr.split('/');
+      if (inicioParts.length < 2) return true;
+      var fechaInicio = new Date(parseInt(inicioParts[1]), parseInt(inicioParts[0]) - 1, 1);
+
+      var fechaFin;
+      var finLower = finStr.toLowerCase();
+      if (finLower === 'actualidad' || finLower === 'present') {
+        fechaFin = new Date(hoy.getFullYear(), hoy.getMonth(), 1);
+      } else {
+        var finParts = finStr.split('/');
+        if (finParts.length < 2) return true;
+        fechaFin = new Date(parseInt(finParts[1]), parseInt(finParts[0]) - 1, 1);
+      }
+
+      var meses = (fechaFin.getFullYear() - fechaInicio.getFullYear()) * 12
+                + (fechaFin.getMonth() - fechaInicio.getMonth());
+      if (meses > 0) totalMeses += meses;
+    });
+
+    return totalMeses;
+  }
+
+  // Update counter with calculated experience
+  var totalExp = calcularExperiencia();
+  $('[data-toggle="counter-up"]').text(totalExp);
+
   // jQuery counterUp
   $('[data-toggle="counter-up"]').counterUp({
     delay: 10,

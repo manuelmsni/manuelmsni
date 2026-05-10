@@ -512,14 +512,14 @@ section {
   margin-left: 50px;
 }
 
-#pdf {
+.pdf {
   border: 1px solid #fff;
   transition: all 0.5s;
   margin-right: 2%;
   max-width: 48%;
 }
 
-#pdf:hover {
+.pdf:hover {
   border: 1px solid #2AD7A8;
     color: #444444;
   -webkit-box-shadow: 0px 0px 17px 5px rgba(240,224,141,0.58);
@@ -946,6 +946,10 @@ box-shadow: 0px 0px 17px 5px rgba(240,224,141,0.58);}
   border: 1px solid #fff;
 }
 
+.othertitles li {
+  list-style: none;
+}
+
 .othertitles .icon {
   margin: 0 auto 20px auto;
   padding-top: 17px;
@@ -987,7 +991,6 @@ box-shadow: 0px 0px 17px 5px rgba(240,224,141,0.58);}
 .othertitles .icon-box:hover .title a {
   color: #2AD7A8;
 }
-
 
 .othertitles .drop-down ul {
   display: block;
